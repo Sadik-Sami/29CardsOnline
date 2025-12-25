@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"target": "es2022",
+		"allowJs": true,
+		"moduleResolution": "node",
+		"moduleDetection": "force",
+		"isolatedModules": true,
+		"verbatimModuleSyntax": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"]
+		},
+		"module": "esnext",
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"sourceMap": true,
+
+		// Other Outputs
+		"declaration": true,
+		"declarationMap": true,
+
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"noUncheckedIndexedAccess": true,
+		"exactOptionalPropertyTypes": true,
+		"noUncheckedSideEffectImports": true
+	},
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules"]
+}
