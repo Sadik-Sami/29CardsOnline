@@ -54,3 +54,21 @@
 ✔ Rulebook frozen
 
 ✔ Engine can be written safely
+
+## ✅ MILESTONE 4 — ENGINE CORE (OFFLINE)
+
+**Goal:** Game engine works without WebSockets.
+
+### Tasks
+
+- [x] Deck creation
+- [x] Shuffle
+- [x] Dealing logic
+- [x] Phase machine
+- [x] Unit tests
+
+### Outcome
+
+✔ Deterministic engine
+
+✔ Fully testable
