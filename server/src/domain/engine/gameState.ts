@@ -25,10 +25,14 @@ export interface GameState {
 	readonly deck: readonly Card[];
 	readonly bids: ReadonlyMap<SeatIndex, number>;
 
+	readonly currentBidTurnSeat?: SeatIndex;
+	readonly passedSeats?: ReadonlySet<SeatIndex>;
+
 	readonly winningBid?: number;
 	readonly bidWinnerSeat?: SeatIndex;
 
 	readonly trump?: TrumpType;
+	readonly hiddenTrump?: TrumpType;
 	readonly trumpRevealed: boolean;
 
 	readonly multiplier: Multiplier;

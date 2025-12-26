@@ -15,13 +15,7 @@ export const initialState: GameState = {
 
 	deck: [],
 	bids: new Map(),
-
-	// winningBid: undefined,
-	// bidWinnerSeat: undefined,
-
-	// trump: undefined,
 	trumpRevealed: false,
-
 	multiplier: 1,
 
 	currentTrick: {

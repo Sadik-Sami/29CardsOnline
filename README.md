@@ -72,3 +72,21 @@
 ✔ Deterministic engine
 
 ✔ Fully testable
+
+## ✅ MILESTONE 5 — BIDDING & TRUMP
+
+**Goal:** Complete pre-play logic.
+
+### Tasks
+
+- [x] Bidding order
+- [x] Bid validation
+- [x] Trump selection
+- [x] 7th card handling
+- [x] Joker trump
+
+### Outcome
+
+✔ Legal bids only
+
+✔ Trump logic correct
