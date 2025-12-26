@@ -1,7 +1,9 @@
 ## ✅ MILESTONE 1 — FOUNDATIONS
+
 **Goal:** A running backend with WebSocket connectivity.
 
 ### Tasks
+
 - [x] Initialize Node + TypeScript
 - [x] Project folder structure
 - [x] ESLint + Prettier
@@ -10,14 +12,17 @@
 - [x] Guest ID generation
 
 ### Outcome
+
 ✔ Server accepts connections
 
 ✔ No game logic yet
 
 ## ✅ MILESTONE 2 — ROOM SYSTEM
+
 **Goal:** Players can create and join rooms.
 
 ### Tasks
+
 - [x] Room registry (Map)
 - [x] Create room
 - [x] Join room via code
@@ -27,6 +32,25 @@
 - [x] Broadcast room state
 
 ### Outcome
+
 ✔ 4 players per room
 
 ✔ Stable sessions
+
+## ✅ MILESTONE 3 — GAME RULE SPECIFICATION
+
+**Goal:** Finalize all 29 rules in code-ready form.
+
+### Tasks
+
+- [x] Encode card priority
+- [x] Encode point system
+- [x] Encode cancellation rules
+- [x] Encode advanced rules
+- [x] Rule validation checklist
+
+### Outcome
+
+✔ Rulebook frozen
+
+✔ Engine can be written safely
